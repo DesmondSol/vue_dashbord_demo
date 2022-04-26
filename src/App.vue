@@ -3,6 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import headers from './components/header.vue'
 import footers from './components/footer.vue'
+import bodys from './components/body.vue'
 </script>
 
 <template> 
@@ -11,7 +12,7 @@ import footers from './components/footer.vue'
   <!--<headers msg="Hello Vue 3 + Vite" />-->
   
 
-
+<bodys />
   
 
   <footers />
