@@ -3,18 +3,21 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import headers from './components/header.vue'
 import footers from './components/footer.vue'
-import bodys from './components/body.vue'
+import sidebar from './components/sidebar.vue'
 </script>
 
 <template> 
-<headers /> 
+<div class="flex min-h-screen">
+  <sidebar />
 
-  <!--<headers msg="Hello Vue 3 + Vite" />-->
+   <div class="flex-1">
+     <headers /> 
+
+     <h1>hello</h1> 
+   </div>
   
 
-<bodys />
-  
-
+</div>
   <footers />
 
 </template>
@@ -25,8 +28,8 @@ import bodys from './components/body.vue'
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #ffffff;
+  text-align: left;
+  color: #000000;
   margin-top: 0px;
 }
 </style>

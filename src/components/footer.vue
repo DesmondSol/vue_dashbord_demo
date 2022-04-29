@@ -7,7 +7,7 @@ import { ref } from 'vue'
 
 <template>
 
-<h1>hey</h1>
+
 
     <div class="text-center py-6 px-4 container mx-auto text-gray-500 text-sm mt-12">
   <div class="md:flex justify-between items-center">
