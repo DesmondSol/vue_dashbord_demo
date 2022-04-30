@@ -10,10 +10,24 @@ import { ref } from 'vue'
            <h3 class="w-full h-9 alignment">LOGOs</h3>
            </a> 
         </div>   
-        <div class="mb-10">Profile</div>
-        <div class="mb-10">Mail</div>
-        <div class="mb-10">Log</div>
-        <div class="mb-10">Help</div>
+        <div class="mb-10">
+            <h3 class="mx-6 mb-2 text-xs tracking-widest uppercase text-grey-400">Main</h3>
+            <a href="/"> Home </a>    
+           
+            
+
+        </div>
+        
+        <div class="mb-10">
+            <h3 class="mx-6 mb-2 text-xs tracking-widest uppercase text-grey-400">Library</h3>
+  <a href="/"> Profile </a>    
+            
+ </div>
+        <div class="mb-10">
+            <h3 class="mx-6 mb-2 text-xs tracking-widest uppercase text-grey-400">extra</h3>
+            <a href="/"> Settings </a>
+        </div>
+        
 
 
    </div>

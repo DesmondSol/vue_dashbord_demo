@@ -4,6 +4,8 @@
 import headers from './components/header.vue'
 import footers from './components/footer.vue'
 import sidebar from './components/sidebar.vue'
+import bodys from './components/bodyComp/list_of_cont.vue'
+ 
 </script>
 
 <template> 
@@ -13,7 +15,7 @@ import sidebar from './components/sidebar.vue'
    <div class="flex-1">
      <headers /> 
 
-     <h1>hello</h1> 
+      <bodys />
    </div>
   
 
