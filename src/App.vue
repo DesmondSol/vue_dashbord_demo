@@ -7,23 +7,23 @@ import sidebar from './components/sidebar.vue'
 import bodys from './components/bodyComp/list_of_cont.vue'
  
 
-import signin from '../screens/signin.vue'
-import NotFound from '../screens/notfound.vue'
+// import signin from '../screens/signin.vue'
+// import NotFound from '../screens/notfound.vue'
 
-const routes = {
-  '/': Home,
-  '/signin': signin
-}
+// const routes = {
+//   '/': Home,
+//   '/signin': signin
+// }
 
-const currentPath = ref(window.location.hash)
+// const currentPath = ref(window.location.hash)
 
-window.addEventListener('hashchange', () => {
-  currentPath.value = window.location.hash
-})
+// window.addEventListener('hashchange', () => {
+//   currentPath.value = window.location.hash
+// })
 
-const currentView = computed(() => {
-  return routes[currentPath.value.slice(1) || '/'] || NotFound
-})
+// const currentView = computed(() => {
+//   return routes[currentPath.value.slice(1) || '/'] || NotFound
+// })
 
 </script>
 

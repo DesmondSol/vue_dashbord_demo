@@ -1,9 +1,8 @@
-<script>
+<script setup>
 import { useQuery, useResult } from '@vue/apollo-composable'
 import gql from 'graphql-tag'
 
-export default {
-  setup () {
+
     const { result, loading, error, refetch } = useQuery(gql`
       query countries {
       countries{
@@ -28,14 +27,8 @@ export default {
 
     const countries = useResult(result)
 
-    return {
-      countries,
-      loading,
-      error,
-      refetch,
-    }
-  },
-}
+
+
 </script>
 
 <template>
