@@ -37,7 +37,7 @@ import bodys from './components/bodyComp/list_of_cont.vue'
       <bodys />
    </div>
   
-
+ 
 </div>
   <footers />
 

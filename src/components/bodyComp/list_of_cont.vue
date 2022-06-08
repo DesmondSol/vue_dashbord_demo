@@ -32,7 +32,7 @@ import gql from 'graphql-tag'
 </script>
 
 <template>
-<div class="px-20 pl-5">
+
   <div v-if="loading">Loading...</div>
 
   <div v-else-if="error">Error: {{ error.message }}</div>
@@ -56,7 +56,7 @@ import gql from 'graphql-tag'
     
 </a>
 
-</div>
+
 
 <!-- 
   <table>
